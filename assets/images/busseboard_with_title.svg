@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="800" height="190" viewBox="0 0 1230.77 292.31" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="rgba(0, 0, 0, 0)"></rect>
+<g transform="matrix(10.31 0 0 10.3 155.47 197.87)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-17.02, -21)" d="m 28.652 12.999 c 0.228 0.963 0.348 1.968 0.348 3.001 c 0 7.18 -5.82 13 -13 13 c -4.602 0 -8.645 -2.391 -10.955 -5.998" stroke-linecap="round" />
+</g>
+<g transform="matrix(10.31 0 0 10.3 52.13 239.1)"  >
+<polyline style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  points="-2,2 -2,-2 2,-2 " />
+</g>
+<g transform="matrix(10.31 0 0 10.3 134.4 94.87)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-14.98, -11)" d="m 3.349 19.005 c -0.228 -0.965 -0.349 -1.971 -0.349 -3.005 c 0 -7.18 5.82 -13 13 -13 c 4.603 0 8.647 2.392 10.957 6.001" stroke-linecap="round" />
+</g>
+<g transform="matrix(10.31 0 0 10.3 237.63 53.65)"  >
+<polyline style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  points="2,-2 2,2 -2,2 " />
+</g>
+<g transform="matrix(10.31 0 0 10.3 144.9 136.05)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-16, -15)" d="m 16 23 c 3.314 0 6 -2.605 6 -5.818 c 0 -5.121 -6 -10.182 -6 -10.182 s -6 5.061 -6 10.182 c 0 3.213 2.686 5.818 6 5.818 z" stroke-linecap="round" />
+</g>
+<g transform="matrix(10.31 0 0 10.3 162.33 151.53)"  >
+<path style="stroke: rgb(0,0,0); stroke-width: 2; stroke-dasharray: none; stroke-linecap: round; stroke-dashoffset: 0; stroke-linejoin: round; stroke-miterlimit: 10; fill: none; fill-rule: nonzero; opacity: 1;"  transform=" translate(-17.69, -16.5)" d="m 17.388 14.998 c 0.375 0.759 0.612 1.51 0.612 2.184 c 0 0.294 -0.077 0.572 -0.214 0.819" stroke-linecap="round" />
+</g>
+<g transform="matrix(1 0 0 1 750.93 154.32)" style=""  >
+		<text xml:space="preserve" font-family="Oswald, sans-serif" font-size="190" font-style="normal" font-weight="bold" style="stroke: rgb(0,0,0); stroke-width: 0; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1; white-space: pre;" ><tspan x="-428.07" y="59.69" >BUSSEboard</tspan></text>
+</g>
+</svg>

@@ -13,12 +13,23 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
+<<<<<<< Updated upstream
         android:icon="@mipmap/launcher_icon"
         android:label="ThingsBoard App"
+=======
+        android:requestLegacyExternalStorage="true"
+        android:label="BUSSEboard App"
+>>>>>>> Stashed changes
         android:networkSecurityConfig="@xml/network_security_config"
         android:requestLegacyExternalStorage="true">
         <activity
             android:name=".MainActivity"
+<<<<<<< Updated upstream
+=======
+            android:exported="true"
+            android:launchMode="singleTop"
+            android:theme="@style/LaunchTheme"
+>>>>>>> Stashed changes
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
             android:hardwareAccelerated="true"
             android:launchMode="singleTop"
@@ -45,7 +56,12 @@
             </intent-filter>
         </activity>
 
+<<<<<<< Updated upstream
         <activity android:name=".TbWebCallbackActivity">
+=======
+        <activity android:name=".TbWebCallbackActivity"
+            android:exported="true">
+>>>>>>> Stashed changes
             <intent-filter android:label="tb_web_auth">
                 <action android:name="android.intent.action.VIEW" />
 

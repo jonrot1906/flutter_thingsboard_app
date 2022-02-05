@@ -43,8 +43,12 @@ class TbOAuth2Client {
     );
     final key = SecretKey(appSecret);
     final appToken = jwt.sign(key,
+<<<<<<< Updated upstream
         algorithm: _HMACBase64Algorithm.hs512,
         expiresIn: const Duration(minutes: 2));
+=======
+        algorithm: _HMACBase64Algorithm.HS512, expiresIn: Duration(minutes: 2));
+>>>>>>> Stashed changes
     var url =
         Uri.parse(ThingsboardAppConstants.thingsBoardApiEndpoint + oauth2Url);
     final params = Map<String, String>.from(url.queryParameters);
@@ -74,7 +78,11 @@ class TbOAuth2Client {
 }
 
 class _HMACBase64Algorithm extends JWTAlgorithm {
+<<<<<<< Updated upstream
   static const hs512 = _HMACBase64Algorithm('HS512');
+=======
+  static const HS512 = _HMACBase64Algorithm('HS512');
+>>>>>>> Stashed changes
 
   final String _name;
 

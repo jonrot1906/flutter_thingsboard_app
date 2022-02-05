@@ -7,7 +7,11 @@ packages:
       name: archive
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< Updated upstream
     version: "3.1.7"
+=======
+    version: "3.1.11"
+>>>>>>> Stashed changes
   args:
     dependency: transitive
     description:
@@ -98,7 +102,7 @@ packages:
       name: dart_jsonwebtoken
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.4.0"
+    version: "2.4.1"
   device_info:
     dependency: "direct main"
     description:
@@ -152,7 +156,7 @@ packages:
       name: flutter_form_builder
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "7.0.0"
+    version: "7.1.0"
   flutter_inappwebview:
     dependency: "direct main"
     description:
@@ -258,7 +262,7 @@ packages:
       name: form_builder_validators
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "7.2.0"
+    version: "7.4.0"
   geolocator:
     dependency: "direct main"
     description:
@@ -314,28 +318,32 @@ packages:
       name: image
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< Updated upstream
     version: "3.1.0"
+=======
+    version: "3.1.1"
+>>>>>>> Stashed changes
   image_picker:
     dependency: "direct main"
     description:
       name: image_picker
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.8.4+4"
+    version: "0.8.4+6"
   image_picker_for_web:
     dependency: transitive
     description:
       name: image_picker_for_web
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.1.4"
+    version: "2.1.5"
   image_picker_platform_interface:
     dependency: transitive
     description:
       name: image_picker_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.4.1"
+    version: "2.4.3"
   infinite_scroll_pagination:
     dependency: "direct main"
     description:
@@ -385,6 +393,16 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.12.11"
+<<<<<<< Updated upstream
+=======
+  material_color_utilities:
+    dependency: transitive
+    description:
+      name: material_color_utilities
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "0.1.3"
+>>>>>>> Stashed changes
   material_design_icons_flutter:
     dependency: "direct main"
     description:
@@ -433,7 +451,18 @@ packages:
       name: path_parsing
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< Updated upstream
     version: "1.0.0"
+=======
+    version: "0.2.1"
+  pedantic:
+    dependency: transitive
+    description:
+      name: pedantic
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.11.1"
+>>>>>>> Stashed changes
   petitparser:
     dependency: transitive
     description:
@@ -447,7 +476,7 @@ packages:
       name: plugin_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.2"
+    version: "2.1.2"
   pointycastle:
     dependency: transitive
     description:
@@ -529,7 +558,11 @@ packages:
       name: test_api
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< Updated upstream
     version: "0.4.3"
+=======
+    version: "0.4.8"
+>>>>>>> Stashed changes
   thingsboard_client:
     dependency: "direct main"
     description:
@@ -557,49 +590,65 @@ packages:
       name: url_launcher
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< Updated upstream
     version: "6.0.17"
+=======
+    version: "6.0.18"
+>>>>>>> Stashed changes
   url_launcher_android:
     dependency: transitive
     description:
       name: url_launcher_android
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< Updated upstream
     version: "6.0.13"
+=======
+    version: "6.0.14"
+>>>>>>> Stashed changes
   url_launcher_ios:
     dependency: transitive
     description:
       name: url_launcher_ios
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< Updated upstream
     version: "6.0.13"
+=======
+    version: "6.0.14"
+>>>>>>> Stashed changes
   url_launcher_linux:
     dependency: transitive
     description:
       name: url_launcher_linux
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.2"
+    version: "2.0.3"
   url_launcher_macos:
     dependency: transitive
     description:
       name: url_launcher_macos
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.2"
+    version: "2.0.3"
   url_launcher_platform_interface:
     dependency: transitive
     description:
       name: url_launcher_platform_interface
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "2.0.4"
+    version: "2.0.5"
   url_launcher_web:
     dependency: transitive
     description:
       name: url_launcher_web
       url: "https://pub.dartlang.org"
     source: hosted
+<<<<<<< Updated upstream
     version: "2.0.5"
+=======
+    version: "2.0.6"
+>>>>>>> Stashed changes
   url_launcher_windows:
     dependency: transitive
     description:

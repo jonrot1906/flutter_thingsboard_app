@@ -37,15 +37,24 @@ class _ResetPasswordRequestPageState
               body: Stack(children: [
                 SizedBox.expand(
                     child: Padding(
+<<<<<<< Updated upstream
                         padding: const EdgeInsets.all(24),
+=======
+                        padding: EdgeInsets.all(24),
+>>>>>>> Stashed changes
                         child: FormBuilder(
                             key: _resetPasswordFormKey,
                             autovalidateMode: AutovalidateMode.disabled,
                             child: Column(
                                 crossAxisAlignment: CrossAxisAlignment.stretch,
                                 children: [
+<<<<<<< Updated upstream
                                   const SizedBox(height: 16),
                                   const Text(
+=======
+                                  SizedBox(height: 16),
+                                  Text(
+>>>>>>> Stashed changes
                                     'Enter the email associated with your account and we\'ll send an email with password reset link',
                                     textAlign: TextAlign.center,
                                     style: TextStyle(
@@ -53,7 +62,11 @@ class _ResetPasswordRequestPageState
                                         fontSize: 14,
                                         height: 24 / 14),
                                   ),
+<<<<<<< Updated upstream
                                   const SizedBox(height: 61),
+=======
+                                  SizedBox(height: 61),
+>>>>>>> Stashed changes
                                   FormBuilderTextField(
                                     name: 'email',
                                     autofocus: true,
@@ -63,6 +76,7 @@ class _ResetPasswordRequestPageState
                                       FormBuilderValidators.email(context,
                                           errorText: 'Invalid email format.')
                                     ]),
+<<<<<<< Updated upstream
                                     decoration: const InputDecoration(
                                         border: OutlineInputBorder(),
                                         labelText: 'Email *'),
@@ -73,6 +87,18 @@ class _ResetPasswordRequestPageState
                                     style: ElevatedButton.styleFrom(
                                         padding: const EdgeInsets.symmetric(
                                             vertical: 16)),
+=======
+                                    decoration: InputDecoration(
+                                        border: OutlineInputBorder(),
+                                        labelText: 'Email *'),
+                                  ),
+                                  Spacer(),
+                                  ElevatedButton(
+                                    child: Text('Request password reset'),
+                                    style: ElevatedButton.styleFrom(
+                                        padding:
+                                            EdgeInsets.symmetric(vertical: 16)),
+>>>>>>> Stashed changes
                                     onPressed: () {
                                       _requestPasswordReset();
                                     },
@@ -84,12 +110,20 @@ class _ResetPasswordRequestPageState
                       if (loading) {
                         return SizedBox.expand(
                             child: Container(
+<<<<<<< Updated upstream
                           color: const Color(0x99FFFFFF),
                           child: const Center(
                               child: TbProgressIndicator(size: 50.0)),
                         ));
                       } else {
                         return const SizedBox.shrink();
+=======
+                          color: Color(0x99FFFFFF),
+                          child: Center(child: TbProgressIndicator(size: 50.0)),
+                        ));
+                      } else {
+                        return SizedBox.shrink();
+>>>>>>> Stashed changes
                       }
                     })
               ])))

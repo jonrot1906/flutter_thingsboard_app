@@ -24,7 +24,11 @@ void main() async {
 }
 
 class ThingsboardApp extends StatefulWidget {
+<<<<<<< Updated upstream
   const ThingsboardApp({Key? key}) : super(key: key);
+=======
+  ThingsboardApp({Key? key}) : super(key: key);
+>>>>>>> Stashed changes
 
   @override
   ThingsboardAppState createState() => ThingsboardAppState();
@@ -131,14 +135,22 @@ class ThingsboardAppState extends State<ThingsboardApp>
         statusBarColor: Colors.white,
         systemNavigationBarIconBrightness: Brightness.light));
     return MaterialApp(
+<<<<<<< Updated upstream
         title: 'ThingsBoard',
+=======
+        title: 'BUSSEboard',
+>>>>>>> Stashed changes
         themeMode: ThemeMode.light,
         home: TwoPageView(
             controller: _mainPageViewController,
             first: MaterialApp(
               key: mainAppKey,
               scaffoldMessengerKey: appRouter.tbContext.messengerKey,
+<<<<<<< Updated upstream
               title: 'ThingsBoard',
+=======
+              title: 'BUSSEboard',
+>>>>>>> Stashed changes
               theme: tbTheme,
               themeMode: ThemeMode.light,
               darkTheme: tbDarkTheme,
@@ -148,7 +160,11 @@ class ThingsboardAppState extends State<ThingsboardApp>
             second: MaterialApp(
               key: dashboardKey,
               // scaffoldMessengerKey: appRouter.tbContext.messengerKey,
+<<<<<<< Updated upstream
               title: 'ThingsBoard',
+=======
+              title: 'BUSSEboard',
+>>>>>>> Stashed changes
               theme: tbTheme,
               themeMode: ThemeMode.light,
               darkTheme: tbDarkTheme,

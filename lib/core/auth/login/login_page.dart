@@ -22,12 +22,20 @@ class LoginPage extends TbPageWidget {
 
 class _LoginPageState extends TbPageState<LoginPage> {
   final ButtonStyle _oauth2ButtonWithTextStyle = OutlinedButton.styleFrom(
+<<<<<<< Updated upstream
       padding: const EdgeInsets.all(16),
+=======
+      padding: EdgeInsets.all(16),
+>>>>>>> Stashed changes
       alignment: Alignment.centerLeft,
       primary: Colors.black87);
 
   final ButtonStyle _oauth2IconButtonStyle = OutlinedButton.styleFrom(
+<<<<<<< Updated upstream
       padding: const EdgeInsets.all(16), alignment: Alignment.center);
+=======
+      padding: EdgeInsets.all(16), alignment: Alignment.center);
+>>>>>>> Stashed changes
 
   final _isLoginNotifier = ValueNotifier<bool>(false);
   final _showPasswordNotifier = ValueNotifier<bool>(false);
@@ -54,7 +62,11 @@ class _LoginPageState extends TbPageState<LoginPage> {
           Positioned.fill(child: LayoutBuilder(
             builder: (context, constraints) {
               return SingleChildScrollView(
+<<<<<<< Updated upstream
                   padding: const EdgeInsets.fromLTRB(24, 71, 24, 24),
+=======
+                  padding: EdgeInsets.fromLTRB(24, 71, 24, 24),
+>>>>>>> Stashed changes
                   child: ConstrainedBox(
                       constraints: BoxConstraints(
                           minHeight: constraints.maxHeight - (71 + 24)),
@@ -69,24 +81,40 @@ class _LoginPageState extends TbPageState<LoginPage> {
                                     color: Theme.of(context).primaryColor,
                                     semanticsLabel: 'ThingsBoard Logo')
                               ]),
+<<<<<<< Updated upstream
                               const SizedBox(height: 32),
                               Row(children: const [
+=======
+                              SizedBox(height: 32),
+                              Row(children: [
+>>>>>>> Stashed changes
                                 Text('Login to your account',
                                     style: TextStyle(
                                         fontWeight: FontWeight.bold,
                                         fontSize: 28,
                                         height: 36 / 28))
                               ]),
+<<<<<<< Updated upstream
                               const SizedBox(height: 48),
+=======
+                              SizedBox(height: 48),
+>>>>>>> Stashed changes
                               if (tbContext.hasOAuthClients)
                                 _buildOAuth2Buttons(
                                     tbContext.oauth2ClientInfos!),
                               if (tbContext.hasOAuthClients)
                                 Padding(
+<<<<<<< Updated upstream
                                     padding: const EdgeInsets.only(
                                         top: 10, bottom: 16),
                                     child: Row(
                                       children: const [
+=======
+                                    padding:
+                                        EdgeInsets.only(top: 10, bottom: 16),
+                                    child: Row(
+                                      children: [
+>>>>>>> Stashed changes
                                         Flexible(child: Divider()),
                                         Padding(
                                           padding: EdgeInsets.symmetric(
@@ -114,11 +142,19 @@ class _LoginPageState extends TbPageState<LoginPage> {
                                               errorText:
                                                   'Invalid email format.')
                                         ]),
+<<<<<<< Updated upstream
                                         decoration: const InputDecoration(
                                             border: OutlineInputBorder(),
                                             labelText: 'Email'),
                                       ),
                                       const SizedBox(height: 28),
+=======
+                                        decoration: InputDecoration(
+                                            border: OutlineInputBorder(),
+                                            labelText: 'Email'),
+                                      ),
+                                      SizedBox(height: 28),
+>>>>>>> Stashed changes
                                       ValueListenableBuilder(
                                           valueListenable:
                                               _showPasswordNotifier,
@@ -146,8 +182,12 @@ class _LoginPageState extends TbPageState<LoginPage> {
                                                               .value;
                                                     },
                                                   ),
+<<<<<<< Updated upstream
                                                   border:
                                                       const OutlineInputBorder(),
+=======
+                                                  border: OutlineInputBorder(),
+>>>>>>> Stashed changes
                                                   labelText: 'Password'),
                                             );
                                           })
@@ -172,6 +212,7 @@ class _LoginPageState extends TbPageState<LoginPage> {
                                     ),
                                   )
                                 ],
+<<<<<<< Updated upstream
                               ),
                               const Spacer(),
                               ElevatedButton(
@@ -184,6 +225,20 @@ class _LoginPageState extends TbPageState<LoginPage> {
                                 },
                               ),
                               const SizedBox(height: 48)
+=======
+                              ),
+                              Spacer(),
+                              ElevatedButton(
+                                child: Text('Log In'),
+                                style: ElevatedButton.styleFrom(
+                                    padding:
+                                        EdgeInsets.symmetric(vertical: 16)),
+                                onPressed: () {
+                                  _login();
+                                },
+                              ),
+                              SizedBox(height: 48)
+>>>>>>> Stashed changes
                             ]),
                       )));
             },
@@ -202,7 +257,11 @@ class _LoginPageState extends TbPageState<LoginPage> {
                               filter:
                                   ImageFilter.blur(sigmaX: 5.0, sigmaY: 5.0),
                               child: Container(
+<<<<<<< Updated upstream
                                 decoration: BoxDecoration(
+=======
+                                decoration: new BoxDecoration(
+>>>>>>> Stashed changes
                                     color:
                                         Colors.grey.shade200.withOpacity(0.2)),
                                 child: Container(

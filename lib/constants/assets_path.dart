@@ -1,4 +1,5 @@
 abstract class ThingsboardImage {
+<<<<<<< Updated upstream
   static const thingsBoardWithTitle =
       'assets/images/thingsboard_with_title.svg';
   static const thingsboard = 'assets/images/thingsboard.svg';
@@ -6,6 +7,14 @@ abstract class ThingsboardImage {
   static const thingsboardCenter = 'assets/images/thingsboard_center.svg';
   static const dashboardPlaceholder = 'assets/images/dashboard-placeholder.svg';
   static const deviceProfilePlaceholder =
+=======
+  static final thingsBoardWithTitle = 'assets/images/busseboard_with_title.svg';
+  static final thingsboard = 'assets/images/busseboard.svg';
+  static final thingsboardOuter = 'assets/images/busseboard_outer.svg';
+  static final thingsboardCenter = 'assets/images/busseboard_center.svg';
+  static final dashboardPlaceholder = 'assets/images/dashboard-placeholder.svg';
+  static final deviceProfilePlaceholder =
+>>>>>>> Stashed changes
       'assets/images/device-profile-placeholder.svg';
 
   static final oauth2Logos = <String, String>{
